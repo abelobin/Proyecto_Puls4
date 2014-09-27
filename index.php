@@ -32,7 +32,16 @@
 			<p>Stylus</p>
 		</div>
 		<div class="avatar">
+
+
+			<?php
+				if (isset($_SESSION["puls4"]))
+				{
+			?>
 			<a class="publicar" href="crearpost.php">Publicar</a>
+			<?php
+				}
+			?>
             <img src="images/avatar.jpg">
             <a class="flechita" href="login.php"></a>
 		</div>
